@@ -1,0 +1,40 @@
+@import url('sideNav.css');
+
+/*search container*/
+
+.searchContainer{
+    /*border: 2px dashed red;*/
+    width: fit-content;
+}
+.search-input{
+    width: 50vw;
+    height: 5.3vh;
+    border-radius: 10px;
+    border: none;
+    background: var(--ash);
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+.search-input::placeholder{
+    font-size: 20px;
+}
+
+.search-icon{
+    position: relative;
+    left: 10vw;
+    top: 1vw;
+    width: 20px;
+}
+
+.menu-bar{
+    width: 30px;
+}
+
+.searchAndMenuContainer{
+    margin-top: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid blue;*/
+    gap: 100px;
+}
