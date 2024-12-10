@@ -38,3 +38,71 @@
     /*border: 1px solid blue;*/
     gap: 100px;
 }
+
+header{
+    border: 2px dashed purple;
+    height: fit-content;
+}
+
+#headerBackgroundImg{
+    width: 99vw;
+    margin-top: 50px;
+}
+
+.new-arrivals{
+    margin: 7vw 5vw ;
+}
+
+.product-card{
+    display: flex;
+    border: 2px solid green;
+    width: 95vw;
+    margin: auto;
+    padding: 1vw 3vw;
+    border-radius: 15px;
+    gap: 30px;
+}
+.product-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.view-product{
+    margin-left: 15px;
+    font-size: 18px;
+    /* border: 1px solid pink; */
+    text-decoration: none;
+    color: var(--dark-red);
+}
+.price{
+    font-size: 20px;
+    font-weight: bold;
+}
+.old-price{
+    margin-left: 100px;
+    font-size: 12px;
+    color: var(--ash);
+    text-decoration: line-through;
+}
+
+#naira-icon{
+    width: 20px;
+}
+
+.product-image{
+    width: 30vw;
+    border: none;
+}
+
+.add-to-cart{
+    font-size: 20px;
+}
+button{
+    background: var(--dark-red);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
